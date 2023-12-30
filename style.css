@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding: 20px 100px;
+    color: white;
+
+}
+
+.htext {
+    font-weight: 900;
+    font-size: 24px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.firstbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 100px;
+    background: #1f2937;
+    color: white;
+}
+
+.firstbox img {
+    width: 300px;
+    height: 150px;
+}
+
+.firstbox .text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.firstbox p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.firstbox .sign-up {
+    background: #3882f6;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
+
+.secondbox img {
+    max-width: 200px;
+    border: solid #3882f6 5px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.secondbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 100px;
+    justify-content: space-between;
+}
+
+.secondbox .title {
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+.secondbox .info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 104px;
+}
+
+.secondbox .box {
+    max-width: 200px;
+
+}
+
+.thirdbox {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 200px 150px;
+}
+
+.thirdbox .quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.thirdbox .author {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.fourthbox {
+    padding: 100px 100px;
+}
+
+
+.fourthbox .container {
+    display: flex;
+    background: #3882f6;
+    padding: 100px 50px;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourthbox .container .text {
+    padding: 0px 50px;
+}
+
+.fourthbox .container .text .head {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.fourthbox .container .button {
+    padding: 0px 50px;
+    font-size: 32px;
+    border: solid #e5e7eb 3px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 5px;
+    background: #3882f6;
+    color: white;
+}
+
+.footer {
+    background: #1f2937;
+    padding: 20px;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
